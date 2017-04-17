@@ -1,0 +1,84 @@
+@charset "UTF-8";
+html {
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -ms-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  font-size: 0.24rem; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, figure, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0; }
+h1, h2, h3, h4, h5, h6, a {
+  font-size: 0.24rem;
+  font-weight: normal; }
+input, textarea, select, code, kbd, pre, samp {
+  font-size: 0.24rem; }
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  font-family: inherit; }
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+input, textarea {
+  outline: 0; }
+textarea {
+  resize: none; }
+input:focus, textarea:focus {
+  outline: 0; }
+li {
+  list-style: none; }
+fieldset, img {
+  border: 0; }
+a {
+  text-decoration: none;
+  background: 0;
+  color: #666; }
+a:hover {
+  text-decoration: none; }
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch; }
+a, button, input, img {
+  -webkit-tap-highlight-color: transparent; }
+html, body {
+  height: 100%;
+  background: #fff;
+  color: #000; }
+body {
+  overflow-x: hidden;
+  width: 100%;
+  font: 0.24rem/0.48rem arial, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', '黑体', '宋体', Tahoma, Arial, Helvetica, STHeiti; }
+a {
+  color: #fff;
+  text-decoration: none; }
+img {
+  display: block; }
+.fl {
+  float: left;
+  display: inline; }
+.fr {
+  float: right;
+  display: inline; }
+.clear {
+  clear: both; }
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+.clearfix {
+  display: inline-block; }
+.clearfix {
+  display: block; }
+.hide {
+  display: none; }
