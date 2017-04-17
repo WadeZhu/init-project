@@ -1,0 +1,50 @@
+{
+  "name": "peak1",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "kong",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "css-mqpacker": "^4.0.0",
+    "end-of-stream": "^1.1.0",
+    "gulp": "^3.9.0",
+    "gulp-cache": "^0.4.5",
+    "gulp-changed": "*",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-html-replace": "^1.6.1",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-jscs": "*",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-postcss": "^6.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tinypng": "^1.0.2",
+    "gulp-uglify": "*",
+    "gulp-requirejs-optimize": "*",
+    "gulp-useref": "^3.1.0",
+    "gulp-zip": "^3.2.0",
+    "lazypipe": "^1.0.1",
+    "node-sass": "^3.8.0",
+    "orchestrator": "^0.3.7",
+    "postcss-import": "^8.0.2",
+    "postcss-url": "^5.1.1",
+    "stream-consume": "^0.1.0",
+    "webpack": "^1.12.14",
+    "wrappy": "^1.0.2"
+  },
+  "dependencies": {}
+}
